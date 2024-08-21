@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/aside.css">
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <link rel="stylesheet" href="./styles/nominee.css">
+    <link rel="stylesheet" href="./styles/categories.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="main-sec main-sec-1">
+        <aside class="aside">
+            <h3 class="aside-header">Voting System</h3>
+            <div class="admin-box">
+                <div class="admin-img C-cont">
+                    <img src="./image/admin.JPG" alt="">
+
+                </div>
+                <div class="admin-details">
+                    <h4>Admin Admin</h4>
+                    <div class="online-status-info">
+                        <p class="online-status-color"></p>
+                        <span class="online-status-text">
+                            Online
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="voting-containers">
+
+                <div class="voting-con" id="reports">
+                    <h4 class="vot-con-h">
+                        Reports
+                    </h4>
+                    <div class="vot-con-item">
+                        <div class="vot-con-item-con">
+                            <a href="./index.html" class="aside-a" onclick="" class="dash" data-id="dashboard"> 
+                                <i class="fa-solid fa-house"></i>
+                                <span>
+                                    Dashboard
+                                </span>
+                            </a>
+                            <a href="./category.html"  class="aside-a" data-id="categories">
+                                <i class="fa-solid fa-landmark"></i>
+                                <span>
+                                    Categories
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="voting-con" id="manage">
+                    <h4 class="vot-con-h">
+                        Manage
+                    </h4>
+                    <div class="vot-con-item">
+                        <div class="vot-con-item-con">
+                            <a href="#"  class="aside-a"> 
+                                <i class="fa-solid fa-house"></i>
+                                <span>
+                                Voters
+                                </span>
+                            </a>
+                            <a href="#"  class="aside-a">
+                                <i class="fa-solid fa-landmark"></i>
+                                <span>
+                                    Position
+                                </span>
+                            </a>
+                            <a href="#"  class="aside-a">
+                                <i class="fa-solid fa-landmark"></i>
+                                <span>
+                                    Candles
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="voting-con" id="settings">
+                    <h4 class="vot-con-h">
+                        settings
+                    </h4>
+                    <div class="vot-con-item">
+                        <div class="vot-con-item-con">
+                            <a href="#"  class="aside-a"> 
+                                <i class="fa-solid fa-house"></i>
+                                <span>
+                                    Ballot Position
+                                </span>
+                            </a>
+                            <a href="#"  class="aside-a">
+                                <i class="fa-solid fa-landmark"></i>
+                                <span>
+                                    Election Title
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+
+
+            </section>
+
+            <div class="daily-analy ">
+                <h3>Daily Anailysis</h3>
+                <p>Your Voting rate is at 60%</p>
+                <div class="rate-indicator-con">
+                    <div class="rate-indicator">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="logout C-cont">
+                <button>
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    Logout
+                </button>
+            </div>
+        </aside>
+        
+    </section>
+    <section class="main-sec main-sec-2">
+                
+
+        <secttion class="main-page-content sec-3 " id="nominees">
+
+            <header>
+                <nav class="">
+                    <i id="menu" class="fa-solid fa-bars"></i>
+                    <h3 id="main-page-title" class="page-title">
+                        Nominees
+                    </h3>
+    
+                    <div class="other-nav-items C-cont">
+                        <div class="search-bar C-cont ">
+                            <button class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input type="search" placeholder="Search">
+                            <button id="filter-icon" class="C-cont">
+                                <i class="fa-solid fa-arrow-up-a-z"></i>
+                            </button>
+                            
+                        </div>
+                        <button class="noficatication">
+                            <i class="fa-regular fa-bell"></i>
+                        </button>
+                        <div class="user-profile">
+                            <div class="user-pic C-cont">
+                                <img src="./image/admin.JPG" alt="">
+                            </div>
+                            <div class="user-details">
+                                <h4>Josh</h4>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+            </header>
+
+            <h1 class="page-top-name">
+                Nominees
+            </h1>
+            <div class="nominated"></div>
+        </secttion>
+       
+    </section>
+
+    
+
+    <div class="overlay"></div>
+<script type="module" src="./scripts/nominee.js">
+
+  
+</script>
+</body>
+</html>
